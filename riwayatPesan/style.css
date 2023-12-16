@@ -18,12 +18,22 @@
 body {
   background-color: var(--body-color);
 }
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 a {
   color: var(--title-color);
   text-decoration: none;
 }
 .navbar {
   box-shadow: 0 3px 5px var(--shadow-color); /* Customize or remove the shadow */
+  /* max-width: 100%; */
 }
 #navbarSupportedContent img {
   min-width: 2.5rem;
